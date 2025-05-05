@@ -1,0 +1,87 @@
+body {
+    margin: 40px auto;
+    background-color: #1B244A;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+h3, #timer{
+    margin: 0px 0px 5px 0px;
+    padding-bottom: 0;
+    font-size:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+.pointBtn{
+    color: #9AABD8;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    margin: 30px 8px;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+   
+}
+.pointBtn:hover{
+    background-color: #141a37;
+}
+.pointBtn:active{
+    background-color: #4155b8;
+}
+
+.score {
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+
+    color: #F94F6D;
+    font-size: 180px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+#guest-score{
+    background-color: #080001;
+}
+#home-score{
+    background-color: #080001;
+}
+
+#newGame{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    
+}
+#startTimer{
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+    
+}
+#timer{
+    background-color: #080001;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+
